@@ -1,0 +1,91 @@
+<html>
+
+<head>
+  <!--Loading vue for later use-->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> Bite-Sized Library </title>
+
+  <header>
+    <!--Logo image linking back to homepage-->
+    <center><a href="#"><img src="https://blitzle8264.github.io/SIT120_Task_Submissions/bookshelf.jpg" width="80%" height="150px%"></img></a></center>
+  </header>
+
+</head>
+
+<body>
+  <!--Navigation bar-->
+  <div id="nav" class="nav">
+    <a href="#">Popular</a>
+    <a href="#">Your Bookshelf</a>
+    <!-- additional code to form drop down menus in nav bar -->
+    <div class="dropdown">
+      <button class="dropbtn">Forms
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Drabble</a>
+        <a href="#">Haiku</a>
+        <a href="#">Sonnet</a>
+        <a href="#">Short Narrative</a>
+        <a href="#">Other</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Tags
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Seasonal</a>
+        <a href="#">Scenic</a>
+        <a href="#">Romantic</a>
+        <a href="#">Sad</a>
+        <a href="#">Other</a>
+      </div>
+    </div>
+    <!--Button to take user to a random work on the site - not implemented yet-->
+    <a href="#">Random Work</a>
+    <a href="#" onclick="loginWindow()">Login/Register</a>
+    <!--Search bar to search for works by name, tag, genre, etc-->
+    <i class="material-icons">Search</i>
+    <input type="text" id="free_search" placeholder="Browse...">
+  </div>
+
+  <!--First column of main content-->
+  <div class="column left">
+    <div class="heading">
+      <h3>Starter Works</h3>
+    </div>
+    <p>This is a collection of works good for those new to the Bite-Sized Library. Please enjoy this curated collection of works that we think could spark your interest in the rest of the works submitted to this site!</p>
+    <!--Boxes to show details of works good for people new to the site-->
+    <h3 class="work_card">Title of work</h3>
+    <p class="work_info"><b>A brief description plus the tags for the work</p>
+    <h3 class="work_card">Title of work</h3>
+    <p class="work_info"><b>A brief description plus the tags for the work</p>
+    <h3 class="work_card">Title of work</h3>
+    <p class="work_info"><b>A brief description plus the tags for the work</p>
+  </div>
+
+  <!--column for secondary content-->
+  <div class="column right">
+    <div class="heading">
+      <!-- Links to the submission page for users and the area to revise others work and give criticisms-->
+      <h3>Submissions</h3>
+    </div>
+    <div class="sumbission_card">
+      <p class="submission_info"><b><a href="#">Submissions page</a></br>
+          </br><a href="#">Review other's submissions</a></p>
+    </div>
+    </br></br></br></br>
+    <div class="heading">
+      <!--Ways to contact the site and give feedback or file complaints-->
+      <h3>Feedback & Forms</h3>
+    </div>
+    <div class="sumbission_card">
+      <p class="submission_info"><b><a href="#">Feedback page</a></br>
+          </br><a href="#">Contact forms</a></p>
+</body>
+
+</html>
